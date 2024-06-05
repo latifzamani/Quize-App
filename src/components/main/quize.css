@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: azure;
+    margin: 20vh 20%;
+    gap: 10px;
+    border-radius: 10px;
+}
+.container ul li {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0;
+    text-align: start;
+    cursor: pointer;
+}
+.container ul{
+    margin: 0;
+    padding:0 5%;
+    
+}
+.container button {
+    width: 20vh;
+    padding: 8px;
+    border-radius: 15px;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(52, 176, 52);
+    border-color: rgb(211, 213, 214);
+}
+.container .footer{
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+}
+
+.container .correct{
+    background-color: rgb(101, 208, 101);
+}
+.container .wrong{
+    background-color: rgb(240, 95, 95);
+}
+.container .resetBtn{
+    margin-bottom: 30px;
+}
